@@ -1,0 +1,15 @@
+google-cloud-datastore
+tweepy
+schedule
+pandas
+jupyterlab
+jupyter
+django
+psycopg2-binary
+django-extensions
+google-cloud-language
+google-cloud-automl
+sklearn
+
+
+
