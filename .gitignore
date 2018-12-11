@@ -1,2 +1,2 @@
-sentiment/local_settings.py
+courses_sentiment_tweets/local_settings.py
 tweets/migrations/*
