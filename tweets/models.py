@@ -11,6 +11,9 @@ class TwitterText(models.Model):
     def __str__(self):
         return self.tweet
 
+    class Meta:
+        verbose_name_plural = "tweets"
+
 
 class SearchKeywords(models.Model):
     keyword = models.CharField('keyword', max_length=64)
@@ -18,3 +21,6 @@ class SearchKeywords(models.Model):
 
     def __str__(self):
         return self.keyword
+
+    class Meta:
+        verbose_name_plural = "keywords"

@@ -1,8 +1,11 @@
-# courses-sentiment-tweets
-Coursera course reviews data set and sentiment analysis tweets using Google AutoML. 
-This is setup for educational purposes as part of a lightning talk at the workplace
+# Courses sentiment tweets via AutoML
 
-what is the idea?
+##### by Tarek Hoteit - TR Labs
+
+**Coursera course reviews data set and sentiment analysis tweets using Google AutoML. 
+This is setup for educational purposes as part of a lightning talk at the workplace**
+
+*what is the idea?*
 
 Showcase how Google AutoML can be used in conjunction with Python libraries for accessing content from Twitter in order
 to setup a sentiment analysis framework.
@@ -23,8 +26,7 @@ The requirements are as follows:
 
 - install Docker and pull postgres image 
 - create a postgres container off of the image
-- in the configuration part, make sure to bind the volume so that the 
-data does not get erased when the container is removed
+- in the configuration part, make sure to bind the volume so that the data does not get erased when the container is removed
 - test that the database is connected
 
 
@@ -37,6 +39,7 @@ data does not get erased when the container is removed
 
 
 ### Setup Twitter Development account
+
 - access [developer.twitter.com](https://developer.twitter.com/content/developer-twitter/en.html)
 - create a Twitter app at [https://developer.twitter.com/en/apps]
 - get the permissions and add them under Django project settings in courses_sentiment_tweets/local_settings.py
@@ -53,13 +56,14 @@ The steps that you need to train Google AutoMl model for course reviews is as fo
 - download [Kaggle 100K Coursera's Course Reviews Dataset](https://www.kaggle.com/septa97/100k-courseras-course-reviews-dataset) or access the data set from folder with the same name inside the repo
 - read the instructions on [preparing your training data](https://cloud.google.com/natural-language/automl/docs/prepare)
 - setup a google cloud project for AutoML and a google cloud storage for the dataset. [quickstart](https://cloud.google.com/natural-language/automl/docs/quickstart) is useful here. 
-- setup the dataset and manage the model. You can do this via the ui at [https://cloud.google.com/automl/ui/](https://cloud.google.com/automl/ui/) or through Python/Java/command line/nodejs as explained in [https://cloud.google.com/natural-language/automl/docs/models#automl-nl-example-web](https://cloud.google.com/natural-language/automl/docs/models#automl-nl-example-web)
+- setup the dataset and manage the model. You can do this via the ui at
+ [https://cloud.google.com/automl/ui/](https://cloud.google.com/automl/ui/) or through Python/Java/command line/nodejs 
+ as explained in [https://cloud.google.com/natural-language/automl/docs/models#automl-nl-example-web](https://cloud.google.com/natural-language/automl/docs/models#automl-nl-example-web)
+ 
 
 My code is listed in coursera-reviews.ipynb as a Jupyter notebook
 Note: that do use Google Cloud from your code, you need to setup GOOGLE_APPLICATION_CREDENTIALS using Google Cloud 
- Service Manager account. In my case it is  
-    `export GOOGLE_APPLICATION_CREDENTIALS="/Users/tarek/.ssh/automlservice.txt"`
+ Service Manager account. In my case it is   `export GOOGLE_APPLICATION_CREDENTIALS="/Users/tarek/.ssh/automlservice.txt"`
 - check the results and validate your dataset through the AutoML UI listed. You can validate usihng the url listed above
 or from your code 
-
 

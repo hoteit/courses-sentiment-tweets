@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01b5dbab-d667-479d-843d-57724f6a6a33" name="Default Changelist" comment="added general notebook for sentiment analysis">
+      <change afterPath="$PROJECT_DIR$/data/base/13067/pg_internal.init" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/global/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/1247" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/1247" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/1247_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/1247_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/1247_vm" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/1247_vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/1249" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/1249" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/1249_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/1249_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/1249_vm" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/1249_vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/1259" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/1259" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/1259_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/1259_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/1259_vm" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/1259_vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16384" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16384" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16386" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16386" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16393" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16393" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16395" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16395" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16397" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16397" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16401" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16401" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16403" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16403" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16405" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16405" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16407" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16407" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16411" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16411" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16413" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16413" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16423" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16423" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16431" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16431" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16433" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16433" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16437" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16437" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16439" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16439" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16441" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16441" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16449" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16449" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16462" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16462" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16464" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16464" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16480" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16480" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16509" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16509" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16511" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16511" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16519" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16519" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16531" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16531" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16532" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16532" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16539" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16539" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16545" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16545" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16547" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16547" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16548" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16548" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16549" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16549" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16551" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16551" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16555" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16555" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16557" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16557" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16559" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16559" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/16563" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/16563" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2224" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2224" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2579" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2579" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2604" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2604" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2606" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2606" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2606_vm" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2606_vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2608" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2608" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2608_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2608_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2608_vm" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2608_vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2610" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2610" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2619" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2619" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2619_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2619_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2619_vm" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2619_vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2620" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2620" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2656" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2656" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2657" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2657" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2658" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2658" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2659" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2659" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2662" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2662" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2663" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2663" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2664" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2664" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2665" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2665" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2666" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2666" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2667" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2667" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2673" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2673" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2674" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2674" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2678" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2678" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2679" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2679" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2696" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2696" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2699" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2699" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2701" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2701" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2702" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2702" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2703" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2703" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2704" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2704" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2840" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2840" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2840_vm" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2840_vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/2841" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/2841" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/3455" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/3455" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/base/13067/5002" beforeDir="false" afterPath="$PROJECT_DIR$/data/base/13067/5002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/global/2396" beforeDir="false" afterPath="$PROJECT_DIR$/data/global/2396" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/data/global/pg_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pg_stat_tmp/db_0.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/pg_stat_tmp/db_0.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pg_stat_tmp/db_13067.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/pg_stat_tmp/db_13067.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pg_stat_tmp/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/pg_stat_tmp/global.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/data/pg_wal/000000010000000000000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/data/pg_xact/0000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/general-automl-sentiment-analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/general-automl-sentiment-analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/models.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notebooks/coursera-reviews.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/sentiments_analyzer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="e#58#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/automl_predict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/notebooks/general-automl-sentiment-analysis.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/tweets_collector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1590">
+              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+              <folding>
+                <element signature="e#41#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tweets/admin.py" />
+        <option value="$PROJECT_DIR$/scripts/tweets_collector.py" />
+        <option value="$PROJECT_DIR$/scripts/sentiments_analyzer.py" />
+        <option value="$PROJECT_DIR$/notebooks/course-reviews-dataset-upload.ipynb" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/courses_sentiment_tweets/settings.py" />
+        <option value="$PROJECT_DIR$/scripts/automl_predict.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/courses_sentiment_tweets/local_settings.py" />
+        <option value="$PROJECT_DIR$/tweets/models.py" />
+        <option value="$PROJECT_DIR$/notebooks/coursera-reviews.ipynb" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/notebooks/general-automl-sentiment-analysis.ipynb" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="9" />
+    <option name="y" value="29" />
+    <option name="width" value="1497" />
+    <option name="height" value="1008" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="courses-sentiment-tweets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses-sentiment-tweets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses-sentiment-tweets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses-sentiment-tweets" type="462c0819:PsiDirectoryNode" />
+              <item name="100k-courseras-course-reviews-dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses-sentiment-tweets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses-sentiment-tweets" type="462c0819:PsiDirectoryNode" />
+              <item name="courses_sentiment_tweets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses-sentiment-tweets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses-sentiment-tweets" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses-sentiment-tweets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses-sentiment-tweets" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses-sentiment-tweets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses-sentiment-tweets" type="462c0819:PsiDirectoryNode" />
+              <item name="tweets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses-sentiment-tweets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/courses_sentiment_tweets" />
+      <recent name="$PROJECT_DIR$/notebooks" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="postgresql" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="postgres:latest" />
+          <option name="publishAllPorts" value="true" />
+          <option name="commandLineOptions" value="" />
+          <option name="volumeBindings">
+            <list>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/var/lib/postgresql/data" />
+                <option name="hostPath" value="$PROJECT_DIR$/data" />
+              </DockerVolumeBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Docker Image" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01b5dbab-d667-479d-843d-57724f6a6a33" name="Default Changelist" comment="" />
+      <created>1544558151344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544558151344</updated>
+      <workItem from="1544558152642" duration="6831000" />
+      <workItem from="1544565489587" duration="1387000" />
+      <workItem from="1544625341948" duration="1312000" />
+      <workItem from="1544627316235" duration="2315000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial deploy">
+      <created>1544562942123</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544562942123</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added course dataset and the automl python script">
+      <created>1544564850606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544564850606</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added general notebook for sentiment analysis">
+      <created>1544566037444</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544566037444</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added general notebook for sentiment analysis">
+      <created>1544567219255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544567219255</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11845000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="9" y="29" width="1497" height="1008" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24467354" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.3281768" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32896304" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14847161" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32896304" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.024742268" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial deploy" />
+    <MESSAGE value="added course dataset and the automl python script" />
+    <MESSAGE value="added general notebook for sentiment analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="added general notebook for sentiment analysis" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/notebooks/course-reviews-dataset-upload.ipynb" />
+    <entry file="file://$PROJECT_DIR$/tweets/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/674c2c02-2909-43b6-988b-3f0241b0e800/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100k-courseras-course-reviews-dataset/reviews.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses_sentiment_tweets/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-879">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweets/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses_sentiment_tweets/local_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/coursera-reviews.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100k-courseras-course-reviews-dataset/reviews_by_course.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/tweets_collector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+          <folding>
+            <element signature="e#41#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/automl_predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/sentiments_analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#58#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/general-automl-sentiment-analysis.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
